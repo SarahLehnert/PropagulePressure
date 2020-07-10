@@ -32,7 +32,9 @@ library(ggsn)
 library(raster)
 
 #R script used to calculate propagule pressure for CSAS Marine Harvest Atlantic Canada (Mowi) - Aquaculture Baseline Site Assessments Review - August 5-7, 2020
-
+#Calculates propagule pressure from aquaculutre sites in Southern Newfoundland based on the number of fish in cages
+#Propagule pressure is calculated for all rivers on the south coast
+#See paper by Keyser et al. (2018) for more details on the specific calculations https://www.nrcresearchpress.com/doi/abs/10.1139/cjfas-2017-0386#.Xwiq-S0ZNQM
 
 #This R Script is modified from AQPress function  on Github - primarily editted to make calculations of least cost distances faster by using NOAA bathy data from marmap
 setwd("~/Desktop/Sarah/Salmon/CSAS_PropPressure/")
